@@ -1,0 +1,61 @@
+/* CartItems.css */
+
+.cart-items-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price {
+    color: #666666;
+  }
+  
+  .item-quantity {
+    color: #999999;
+  }
+  
+  .total-cost-btn{
+    width:200px;
+    margin:auto;
+    padding:10px;
+  }
+  .total-cost-button {
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cart-item {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .item-details {
+      margin-bottom: 0;
+    }
+  
+    .item-quantity {
+      margin-left: 10px;
+    }
+  }
+  

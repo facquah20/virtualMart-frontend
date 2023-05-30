@@ -1,0 +1,60 @@
+/* AboutUs.css */
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .about__section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about__section--reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .about__content {
+    flex: 1;
+  }
+  
+  .about__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about__description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .about__image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .about__section {
+      flex-direction: column;
+    }
+  
+    .about__title {
+      font-size: 24px;
+    }
+  
+    .about__description {
+      font-size: 14px;
+    }
+  
+    .about__image-container {
+      margin-bottom: 0;
+    }
+  }

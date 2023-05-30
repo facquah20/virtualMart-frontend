@@ -1,0 +1,33 @@
+/* CartIcon.css */
+
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .cart-icon i {
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .cart-icon__badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #ff5252;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+  }
+  
